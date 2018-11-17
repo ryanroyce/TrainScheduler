@@ -1,0 +1,16 @@
+#header-div {
+    background-color: #563f7b; 
+    color: white;
+    text-align: center;
+}
+
+#card-title {
+    background-color: #563f7b; 
+    color: white;
+}
+
+#submit-btn {
+    background-color: #563f7b; 
+    color: white;
+    border-color: white;
+}
