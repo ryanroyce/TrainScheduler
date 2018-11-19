@@ -46,11 +46,6 @@ trainInfo.ref().on("child_added", function (snapshot) {
     var minutes = frequency - remainder;
     var arrival = moment().add(minutes, "m").format("hh:mm A");
 
-    // console log to make sure the conversions are working
-    console.log(remainder);
-    console.log(minutes);
-    console.log(arrival);
-
     // jQuery to pull it all together and put the train info into the empty tbody     
     $("#train-schedule").append("<tbody> <tr> <td>" + name + "</td> <td>" + destination + "</td> <td>" + frequency + "</td> <td>" + arrival + "</td> <td>" + minutes + "</td> </tr> </tbody>");
 });
